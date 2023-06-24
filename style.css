@@ -1,0 +1,196 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-image: url('wallpaperawal1.jpg'); /* Replace 'your-wallpaper.png' with the path or URL of your desired wallpaper image */
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  margin-right: 20px;  
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #81400a;
+    padding:3px 15px;
+    border: 1px solid;
+    transition: 0.6s;
+    margin: 8px;
+}
+ul li a:hover{
+    border-radius: 89px;
+    background: linear-gradient(145deg, #a7cdb0, #c6f4d2);
+    box-shadow:  19px 19px 56px #85a48d,
+                 -19px -19px 56px #edfffb;
+}
+h1 {
+  margin: 90;
+  font-family: 'Copperplate';
+  color:#bd7a43;
+  font-size: 50px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; 
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+section {
+  padding: 50px;
+}
+#hero {
+  background-image: url('wallpaperawal2.jpg'); /* Replace 'your-image.png' with the path or URL of your desired background image */
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 10px 0;
+}
+#hero h2 {
+  margin-bottom: 10px;
+  font-family: 'Brush Script MT';
+  color: #8f9c71;
+  font-size: 60px;
+}
+.cta-button {
+  display: inline-block;
+  background-color: #c09069;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+#services {
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(221,229,190,1) 100%);
+  text-align: center;
+  padding: 50
+  
+}
+#services h1 {
+  margin-bottom: 10px;
+  font-family: 'Brush Script MT';
+  color: #8f9c71;
+  font-size: 80px;
+}
+.slider-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgb(236,205,180);
+}
+.slider {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slide.active {
+  opacity: 1;
+}
+@keyframes slideAnimation {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  33.33% {
+    opacity: 1;
+  }
+  53.33% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.slide:nth-child(1) {
+  animation: slideAnimation 10s infinite;
+}
+.slide:nth-child(2) {
+  animation: slideAnimation 10s infinite 3.33s;
+}
+.slide:nth-child(3) {
+  animation: slideAnimation 10s infinite 6.66s;
+}
+.gambar-sejajar {
+  display: flex;
+}
+.gambar-sejajar img {
+  margin-right: 100px;
+  width: 200px;
+  height: auto;
+}
+.gambar-sejajar p {
+  text-align: center;
+  margin-right: 100px;
+}
+.video-container {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(221,229,190);
+  background: linear-gradient(180deg, rgba(221,229,190,1) 24%, rgba(255,255,255,1) 100%);
+  padding: 10px;
+}
+.contact, .social-media, .address {
+  width: 30%;
+  text-align: center;
+}
+.contact h4, .social-media h4, .address h4 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+.contact p, .address p {
+  font-size: 15px;
+  margin: 5px 0;
+}
+.social-media ul {
+  list-style-type: none;
+  padding: 0;
+}
+.social-media li {
+  display: line-block;
+  margin: 0 5px;
+}
+.logo {
+  text-align: center;
+  margin-top: 0 5px;
+}
+.logo img {
+  width: 300px;
+  height: 50px;
+}
